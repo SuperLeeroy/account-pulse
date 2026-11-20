@@ -1,0 +1,189 @@
+{
+  "account": "Global Talent",
+  "client": "Booking.com",
+  "asOf": "2026-11-13",
+  "budget": {
+    "used": 15557,
+    "inProgress": 12882,
+    "available": 18881,
+    "remaining": 31763,
+    "currency": "$"
+  },
+  "counts": {
+    "inProgress": 10,
+    "waitingApproval": 0,
+    "drafts": 2
+  },
+  "projects": [
+    {
+      "id": "328037",
+      "title": "Podcast From Code to Check in - LinkedIn Carousel",
+      "stage": "feedback",
+      "statusLabel": "Waiting on your feedback",
+      "estimateLow": 3327.6,
+      "estimateHigh": 3555.6,
+      "logged": 3571.16,
+      "pct": 100.4,
+      "latest": "V2 designs sent 11 Nov",
+      "deadline": "2026-10-30",
+      "assets": "2 photos supplied. Updated carousel designs sent",
+      "next": {
+        "asset": "Your feedback on the V2 carousel designs",
+        "date": null
+      }
+    },
+    {
+      "id": "344436",
+      "title": "Guess the role video series",
+      "stage": "revisions",
+      "statusLabel": "Video 3 in revisions",
+      "estimateLow": 8467.3,
+      "estimateHigh": 9143.3,
+      "logged": 8835.0,
+      "pct": 96.6,
+      "latest": "Video 3 V1 (16:9) sent 12 Nov. Videos 1 and 2 approved 10 Nov",
+      "deadline": "2026-10-22",
+      "assets": "16:9 sent for all 3 videos. 9:16 of video 3 outstanding",
+      "next": {
+        "asset": "9:16 version of Video 3",
+        "date": null
+      }
+    },
+    {
+      "id": "354103",
+      "title": "Enabling Functions Content Campaign",
+      "stage": "feedback",
+      "statusLabel": "Waiting on your feedback",
+      "estimateLow": 8378.4,
+      "estimateHigh": 9026.4,
+      "logged": 3972.5,
+      "pct": 47.4,
+      "latest": "Video 2 V3 sent 11 Nov",
+      "deadline": "2026-10-22",
+      "assets": "Carousel exports sent. Video 2 awaiting approval",
+      "next": {
+        "asset": "Your feedback on Video 2 V3",
+        "date": null
+      }
+    },
+    {
+      "id": "417129",
+      "title": "Shanghai 2028 Grad Scheme Content and photography",
+      "stage": "revisions",
+      "statusLabel": "In revisions",
+      "estimateLow": 12227.6,
+      "estimateHigh": 13158.6,
+      "logged": 5823.85,
+      "pct": 47.6,
+      "latest": "Look & feel V2 and Concept V1 sent 10 Nov. Concept mock-up in progress",
+      "deadline": "2027-06-30",
+      "assets": "Reference photos supplied. Office photos in customer media library",
+      "next": {
+        "asset": "Concept mock-up",
+        "date": null
+      }
+    },
+    {
+      "id": "420498",
+      "title": "Culture Values Brand Refresh",
+      "stage": "revisions",
+      "statusLabel": "In revisions",
+      "estimateLow": 13495.0,
+      "estimateHigh": 14634.5,
+      "logged": 8280.07,
+      "pct": 61.4,
+      "latest": "Values deck sent 9 Nov (stickers sent 6 Nov)",
+      "deadline": "2026-11-09",
+      "assets": "Moodboards, icons, stickers and values deck sent",
+      "next": {
+        "asset": "Revised values deck",
+        "date": null
+      }
+    },
+    {
+      "id": "428827",
+      "title": "BPD VRMA Booth video",
+      "stage": "delivered",
+      "statusLabel": "Delivered and approved",
+      "estimateLow": 1493.8,
+      "estimateHigh": 1599.8,
+      "logged": 1270.0,
+      "pct": 85.0,
+      "latest": "Footage selection V1 sent 26 Oct. Approved 26 Oct",
+      "deadline": "2026-10-26",
+      "assets": "1 of 1 sent (curated footage). Nothing outstanding"
+    },
+    {
+      "id": "451838",
+      "title": "EC Assessment Center Candidate Prep Slides",
+      "stage": "delivered",
+      "statusLabel": "Delivered and approved",
+      "estimateLow": 1187.8,
+      "estimateHigh": 1267.8,
+      "logged": 1040.0,
+      "pct": 87.6,
+      "latest": "V1 (2 options) sent 6 Nov. Option 2 approved 11 Nov. Closing",
+      "deadline": "2026-11-10",
+      "assets": "1 of 1 sent (slide deck). Nothing outstanding"
+    },
+    {
+      "id": "453571",
+      "title": "2027 Software Engineering Graduate Hiring Campaign",
+      "stage": "revisions",
+      "statusLabel": "In revisions",
+      "estimateLow": 3750.3,
+      "estimateHigh": 4022.3,
+      "logged": 1880.05,
+      "pct": 50.1,
+      "latest": "V1 (2 routes) sent 12 Nov. Route 1 chosen",
+      "deadline": "2026-12-17",
+      "assets": "V1 sent: teasers, carousel, IG story, feed post, screen",
+      "next": {
+        "asset": "Final campaign assets for Route 1",
+        "date": "2026-12-17"
+      }
+    },
+    {
+      "id": "455322",
+      "title": "Podcast Series - EC Episode",
+      "stage": "prep",
+      "statusLabel": "In preparation",
+      "estimateLow": 0,
+      "estimateHigh": 0,
+      "logged": 350.0,
+      "pct": null,
+      "latest": "Nothing sent yet. Project timings to follow",
+      "deadline": "2027-01-04",
+      "assets": "EC and ML recordings and 2 scripts supplied",
+      "next": {
+        "asset": "Project timings shared with you",
+        "date": null
+      }
+    },
+    {
+      "id": "455348",
+      "title": "Video Production - Data Graduate Campaign 2027",
+      "stage": "hold",
+      "statusLabel": "Starts when footage arrives",
+      "estimateLow": 12142.4,
+      "estimateHigh": 13746.4,
+      "logged": 595.0,
+      "pct": 4.9,
+      "latest": "Plan approved 6 Nov. Nothing sent yet",
+      "deadline": "2027-02-01",
+      "assets": "0 of 1 sent. Your footage is due 14 Dec",
+      "next": {
+        "asset": "Your footage to us",
+        "date": "2026-12-14"
+      }
+    }
+  ],
+  "actions": [
+    {
+      "label": "Share footage for Data Graduate Campaign",
+      "due": "14 Dec",
+      "project": "455348"
+    }
+  ],
+  "projectUrlTemplate": "https://app.superside.com/project/{id}/chat"
+}

@@ -1,0 +1,66 @@
+{
+  "account": "L&D",
+  "client": "Booking.com",
+  "asOf": "2026-11-26",
+  "budget": {
+    "used": 2865,
+    "inProgress": 117,
+    "available": 10814,
+    "remaining": 10931,
+    "total": 13796,
+    "currency": "$"
+  },
+  "counts": {
+    "inProgress": 2,
+    "waitingApproval": 0,
+    "drafts": 10
+  },
+  "projects": [
+    {
+      "id": "299635",
+      "title": "Graduate Learning Journey - Presentation Design",
+      "stage": "feedback",
+      "statusLabel": "Waiting on your confirmation",
+      "estimateLow": 5226.2,
+      "estimateHigh": 5625.2,
+      "logged": 6287.5,
+      "pct": 111.8,
+      "latest": "Updated deck shared 21 Oct",
+      "deadline": "2026-11-20",
+      "assets": "Graduate learning journey deck shared. Optional slide template not yet confirmed",
+      "doing": "Standing by for your confirmation that the deck is final",
+      "action": "Confirm the deck is final (and whether the links were kept) so we can close the project",
+      "next": {
+        "asset": "Your confirmation that the deck is final",
+        "date": null
+      }
+    },
+    {
+      "id": "467473",
+      "title": "Connected Learning All Hands Template",
+      "stage": "delivered",
+      "statusLabel": "Delivered and approved",
+      "estimateLow": 1442.0,
+      "estimateHigh": 1529.6,
+      "logged": 1325.0,
+      "pct": 86.6,
+      "latest": "Updated slide designs (several options) sent 23 Nov. All work approved 23 Nov",
+      "deadline": "2026-11-18",
+      "assets": "Template slides delivered and approved. Nothing outstanding",
+      "doing": "Closing the project",
+      "action": null,
+      "next": {
+        "asset": "Project closure",
+        "date": null
+      }
+    }
+  ],
+  "actions": [
+    {
+      "label": "Confirm the Graduate Learning Journey deck is final so we can close",
+      "due": null,
+      "project": "299635"
+    }
+  ],
+  "projectUrlTemplate": "https://app.superside.com/project/{id}/chat"
+}

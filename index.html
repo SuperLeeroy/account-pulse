@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-slug="global-talent" data-base="">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -196,7 +196,7 @@ header{margin-bottom:0}
 /* v5 hover overlay keeps the link visible */
 .more{position:relative;inset:auto;grid-row:2/6;grid-column:1;margin:-6px -10px;padding:16px 18px;border-radius:12px;
   background:rgba(10,33,31,.97);border:1px solid var(--softest);justify-content:flex-start;gap:6px;z-index:2;align-self:stretch}
-.more p{font-size:14px}
+.more p{font-size:13.5px;line-height:1.4}.more{overflow:auto}
 .more .est{font-size:20px}
 .more .l{margin-top:4px}
 @media(max-width:1100px){.heroA{grid-template-columns:1fr}.rows{grid-template-columns:1fr}.tiles4 .tile{border-radius:16px}}
@@ -204,35 +204,48 @@ header{margin-bottom:0}
 .proj>*{grid-column:1}
 .proj>.top{grid-row:1}.proj>h3{grid-row:2}.proj>.stage{grid-row:3}.proj>.budget{grid-row:4}.proj>.next{grid-row:5}.proj>.foot{grid-row:6;position:relative;z-index:3}
 .proj>.more{grid-row:2/6}
+
+/* v6 clearer next block */
+.next{gap:7px}
+.next .act{font-family:var(--display);font-weight:500;font-size:14px;line-height:1.3;border-radius:12px;padding:8px 12px;background:rgba(216,255,133,.14);color:var(--spark)}
+.next .act.none{background:transparent;padding:8px 0;color:var(--softer);font-weight:400}
+.next.done .act{color:var(--mint)}
+.next .nx,.next .w{font-size:14px;line-height:1.35;color:var(--soft)}
+.next b{font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--softer);font-weight:600;margin-right:6px}
+.next .nx{color:var(--base);font-family:var(--display);font-weight:500}
+.next .nx em{font-style:normal;color:var(--spark);font-weight:600}
+.next .nx em.tbc{color:var(--softer);font-weight:500}
+
+/* v7 keep cards calm */
+.next .act,.next .nx,.next .w{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden}
+.next .act.none{-webkit-line-clamp:1}
+.next .act{padding:7px 12px}
 </style>
 </head>
 <body>
 <div class="wrap" id="app"><p class="muted" style="padding:80px 0">Loading your summary…</p></div>
 
 <script>
-const fmt=(n,d=0)=>'$'+Number(n).toLocaleString('en-US',{minimumFractionDigits:d,maximumFractionDigits:d});
-const STAGES=[['all','All projects'],['feedback','Needs your feedback'],['revisions','In revisions'],['delivered','Delivered'],['upcoming','Coming up']];
+const fmt=(n,d=0)=>(n<0?'-':'')+'$'+Math.abs(Number(n)).toLocaleString('en-US',{minimumFractionDigits:d,maximumFractionDigits:d});
+const STAGES=[['all','All projects'],['feedback','Needs your action'],['revisions','In revisions'],['delivered','Delivered'],['upcoming','Coming up']];
 const stageGroup=s=>s==='prep'||s==='hold'?'upcoming':s;
 const el=(h)=>{const t=document.createElement('template');t.innerHTML=h.trim();return t.content.firstChild};
-const slug=new URLSearchParams(location.search).get('a')||'global-talent';
+const SLUG=document.documentElement.dataset.slug||'global-talent';
+const BASE=document.documentElement.dataset.base||'';
 const dayDiff=(iso,ref)=>Math.round((new Date(iso+'T00:00:00')-new Date(ref+'T00:00:00'))/864e5);
 const todayISO=new Date().toISOString().slice(0,10);
 
-function deadline(p,asOf){
-  const d=dayDiff(p.deadline,asOf);
-  const when=new Date(p.deadline+'T00:00:00').toLocaleDateString('en-GB',{day:'numeric',month:'short'});
-  if(p.stage==='delivered')return `<span class="pill dl done">✓ Delivered · ${when}</span>`;
-  if(d<0)return `<span class="pill dl over">Due ${when} · ${-d}d past</span>`;
-  return `<span class="pill dl">Due ${when} · ${d}d left</span>`;
-}
-
 const STEPS=['Plan','Create','Feedback','Delivered'];
 const stepIdx={prep:0,hold:0,revisions:1,feedback:2,delivered:3};
+const fdate=iso=>iso?new Date(iso+'T00:00:00').toLocaleDateString('en-GB',{weekday:'short',day:'numeric',month:'short'}):null;
 function nextBlock(p){
-  if(p.stage==='delivered')return `<div class="next done"><span class="l">Status</span><span class="a">All delivered ✓</span><span class="d tbc">Nothing outstanding</span></div>`;
-  const n=p.next||{asset:'Update to follow',date:null};
-  const dt=n.date?new Date(n.date+'T00:00:00').toLocaleDateString('en-GB',{weekday:'short',day:'numeric',month:'short'}):null;
-  return `<div class="next"><span class="l">Next up</span><span class="a">${n.asset}</span><span class="d ${dt?'':'tbc'}">${dt?'Due '+dt:'Date to be confirmed'}</span></div>`;
+  if(p.stage==='delivered')return `<div class="next done"><span class="act none">All delivered ✓</span><span class="w">Nothing outstanding from you</span></div>`;
+  const n=p.next||{};
+  const dt=fdate(n.date);
+  const act=p.action?`<span class="act">Your action · ${p.action}</span>`:`<span class="act none">Nothing needed from you right now</span>`;
+  const nx=n.asset?`<span class="nx"><b>Next up</b> ${n.asset}${dt?` <em>· ${dt}</em>`:' <em class="tbc">· date to be confirmed</em>'}</span>`:'';
+  const w=p.doing?`<span class="w"><b>Working on</b> ${p.doing}</span>`:'';
+  return `<div class="next">${act}${nx}${w}</div>`;
 }
 function card(p,tpl){
   const pct=p.pct==null?0:Math.min(p.pct,100);
@@ -243,7 +256,7 @@ function card(p,tpl){
   const team=(p.team||[]).map(t=>`<span title="${t.name||''}">${t.initials||''}</span>`).join('');
   const url=p.url||(tpl?tpl.replace('{id}',p.id):'');
   const link=url?`<a class="open" href="${url}" target="_blank" rel="noopener">Open in Superside ↗</a>`:'<span></span>';
-  return el(`<article class="proj" id="p${p.id}" tabindex="0" data-g="${stageGroup(p.stage)}">
+  return el(`<article class="proj" id="p${p.id}" tabindex="0" data-g="${stageGroup(p.stage)}" data-act="${p.action&&p.stage!=='delivered'?1:0}">
     <div class="top"><span class="pill st ${p.stage}">${p.statusLabel}</span><span class="pid">#${p.id}</span></div>
     <h3>${p.title}</h3>
     <div class="stage"><div class="steps" role="img" aria-label="Stage: ${STEPS[cur]}">${steps}</div>
@@ -253,26 +266,32 @@ function card(p,tpl){
     ${nextBlock(p)}
     <div class="foot">${link}<div class="team">${team}</div></div>
     <div class="more">
+      ${p.action?`<b class="l">Your action</b><p>${p.action}</p>`:''}
+      ${p.doing?`<b class="l">Working on</b><p>${p.doing}</p>`:''}
       <b class="l">Latest</b><p>${p.latest}</p>
       <b class="l">Estimate</b><p class="est">${est}</p>
-      <b class="l">Logged so far</b><p>${fmt(p.logged)}</p>
+      <b class="l">Logged so far</b><p>${fmt(p.logged)}${p.hours&&p.hours.estimateHigh?` <span style="color:var(--softer)">· ${p.hours.logged}h of ${p.hours.estimateHigh}h</span>`:''}</p>
       <b class="l">Deliverables</b><p>${p.assets}</p>
+      ${p.deadline&&p.deadline>=todayISO&&p.stage!=='delivered'?`<b class="l">Final delivery</b><p>${fdate(p.deadline)}</p>`:''}
     </div></article>`);
 }
 
 function render(d){
-  const b=d.budget,total=b.used+b.remaining;
-  const feedback=d.projects.filter(p=>p.stage==='feedback').length;
+  const b=d.budget;const ub=Math.max(0,b.used),ip=Math.max(0,b.inProgress),av=Math.max(0,b.available);const total=Math.max(b.total||(b.used+b.remaining),ub+ip+av,1);const over=b.remaining<0;
+  const feedback=d.projects.filter(p=>p.action&&p.stage!=='delivered').length;
   const asOfFmt=new Date(d.asOf+'T00:00:00').toLocaleDateString('en-GB',{day:'numeric',month:'long',year:'numeric'});
-  document.title=`${d.account} · Weekly summary`;
-  const needItems=[...d.projects.filter(p=>p.stage==='feedback').map(p=>`<a href="#p${p.id}" data-id="${p.id}">Review #${p.id} · ${p.title.length>28?p.title.slice(0,26)+'…':p.title}</a>`),
-    ...(d.actions||[]).map(a=>`<a class="soft" href="#p${a.project||''}" ${a.project?`data-id="${a.project}"`:'onclick="return false"'}>${a.label}${a.due?' · by '+a.due:''}</a>`)];
-  const needs=needItems.length?`<div class="needs"><span class="eyebrow">Needs you</span><div class="list">${needItems.join('')}</div></div>`:'';
-  const counts=g=>g==='all'?d.projects.length:d.projects.filter(p=>stageGroup(p.stage)===g).length;
+  document.title=`${d.account} · Live project pulse`;
+  const short=t=>t.length>26?t.slice(0,24)+'…':t;
+  const actP=d.projects.filter(p=>p.action&&p.stage!=='delivered');
+  const MAXP=4;
+  const needItems=[...actP.slice(0,MAXP).map(p=>`<a href="#p${p.id}" data-id="${p.id}">${short(p.title)}</a>`),
+    ...(actP.length>MAXP?[`<a class="soft" href="#" data-filter="feedback">+${actP.length-MAXP} more</a>`]:[])];
+  const needs=needItems.length?`<div class="needs"><span class="eyebrow">Needs you · ${actP.length}</span><div class="list">${needItems.join('')}</div></div>`:'';
+  const counts=g=>g==='all'?d.projects.length:g==='feedback'?actP.length:d.projects.filter(p=>stageGroup(p.stage)===g).length;
   const app=document.getElementById('app');
   app.innerHTML=`
   <header>
-    <img src="assets/logo-cloud.svg" alt="Superside">
+    <img src="${BASE}assets/logo-cloud.svg" alt="Superside">
     <span class="pill outline"><span class="dot"></span>Live view · data as of ${asOfFmt}</span>
   </header>
   <div style="margin-top:44px"><div class="eyebrow">${d.client} · Weekly account summary</div>
@@ -283,27 +302,28 @@ function render(d){
       <div class="donut">
         <svg viewBox="0 0 200 200" aria-hidden="true">
           <circle cx="100" cy="100" r="86" stroke="rgba(0,0,0,.25)"/>
-          <circle class="ring" data-len="${b.used/total}" data-off="0" cx="100" cy="100" r="86" stroke="#F7F9F2"/>
-          <circle class="ring" data-len="${b.inProgress/total}" data-off="${b.used/total}" cx="100" cy="100" r="86" stroke="#8DFDBA"/>
-          <circle class="ring" data-len="${b.available/total}" data-off="${(b.used+b.inProgress)/total}" cx="100" cy="100" r="86" stroke="#D8FF85"/>
+          <circle class="ring" data-len="${ub/total}" data-off="0" cx="100" cy="100" r="86" stroke="#F7F9F2"/>
+          <circle class="ring" data-len="${ip/total}" data-off="${ub/total}" cx="100" cy="100" r="86" stroke="#8DFDBA"/>
+          <circle class="ring" data-len="${av/total}" data-off="${(ub+ip)/total}" cx="100" cy="100" r="86" stroke="#D8FF85"/>
         </svg>
-        <div class="mid"><b>${fmt(b.remaining)}</b><span>remaining</span></div>
+        <div class="mid"><b>${fmt(Math.abs(b.remaining))}</b><span>${over?'over budget':'remaining'}</span></div>
       </div>
       <div class="heroB">
         <div class="eyebrow">Where your budget is</div>
-        <h2 style="margin-top:12px">${fmt(b.available)} is <em>free to use</em> on new work.</h2>
+        <h2 style="margin-top:12px">${av>0?`${fmt(av)} is <em>free to use</em> on new work.`:`Your budget is <em>fully committed</em> for now.`}</h2>
         <div class="rows">
-          <div class="row"><i style="--c:var(--cloud)"></i><span>Used so far (${Math.round(b.used/total*100)}%)</span><b>${fmt(b.used)}</b></div>
+          <div class="row"><i style="--c:var(--cloud)"></i><span>Used so far (${Math.round(ub/total*100)}%)</span><b>${fmt(b.used)}</b></div>
           <div class="row"><i style="--c:var(--mint)"></i><span>Committed to projects in progress</span><b>${fmt(b.inProgress)}</b></div>
           <div class="row"><i style="--c:var(--spark)"></i><span>Available</span><b>${fmt(b.available)}</b></div>
         </div>
+        ${b.expires?`<p class="muted" style="margin-top:12px;font-size:13px">Budget expires ${new Date(b.expires.date+'T00:00:00').toLocaleDateString('en-GB',{day:'numeric',month:'long',year:'numeric'})}</p>`:''}
       </div>
     </div>
   </section>
   <section class="tiles4">
     <div class="tile"><b>${d.counts.inProgress}</b><span>In progress</span></div>
-    <div class="tile ${feedback?'alert':''}"><b>${feedback}</b><span>Waiting on your feedback</span></div>
-    <div class="tile"><b>${counts('delivered')}</b><span>Delivered</span></div>
+    <div class="tile ${feedback?'alert':''}"><b>${feedback}</b><span>Need your action</span></div>
+    <div class="tile"><b>${counts('upcoming')}</b><span>Coming up</span></div>
     <div class="tile"><b>${d.counts.drafts}</b><span>Drafts in the pipeline</span></div>
   </section>
 
@@ -316,23 +336,24 @@ function render(d){
   d.projects.forEach((p,i)=>{const c=card(p,d.projectUrlTemplate);c.style.setProperty('--i',i);grid.appendChild(c)});
   app.querySelectorAll('.needs a[data-id]').forEach(a=>a.onclick=e=>{e.preventDefault();const t=document.getElementById('p'+a.dataset.id);
     document.querySelector('.chip').click();t.scrollIntoView({behavior:'smooth',block:'center'});t.classList.add('flash');setTimeout(()=>t.classList.remove('flash'),2200)});
-  const cu=app.querySelector('.donut .mid b');const tgt=b.remaining,t0=performance.now();
+  const cu=app.querySelector('.donut .mid b');const tgt=Math.abs(b.remaining),t0=performance.now();
   (function tick(t){const k=Math.min((t-t0)/1200,1),e=1-Math.pow(1-k,3);cu.textContent=fmt(tgt*e);if(k<1)requestAnimationFrame(tick)})(t0);
   requestAnimationFrame(()=>{grid.querySelectorAll('.meter i').forEach(i=>i.style.width=i.dataset.w+'%');
     const C=2*Math.PI*86,gap=6;
     document.querySelectorAll('.ring').forEach(r=>{const l=+r.dataset.len*C,o=+r.dataset.off*C;
       r.style.strokeDashoffset=-o;r.style.strokeDasharray=`${Math.max(l-gap,1)} ${C}`});});
   const f=document.getElementById('filters');
+  app.querySelectorAll('.needs a[data-filter]').forEach(a=>a.onclick=e=>{e.preventDefault();[...f.querySelectorAll('.chip')].find(c=>c.textContent.startsWith('Needs your action')).click();document.querySelector('.bar').scrollIntoView({behavior:'smooth'})});
   STAGES.forEach(([k,l],i)=>{
     const c=counts(k); if(k!=='all'&&!c)return;
     const btn=el(`<button class="chip" aria-pressed="${i===0}">${l}<em>${c}</em></button>`);
     btn.onclick=()=>{f.querySelectorAll('.chip').forEach(x=>x.setAttribute('aria-pressed','false'));btn.setAttribute('aria-pressed','true');
-      grid.querySelectorAll('.proj').forEach(a=>a.style.display=(k==='all'||a.dataset.g===k)?'':'none')};
+      grid.querySelectorAll('.proj').forEach(a=>a.style.display=(k==='all'||(k==='feedback'?a.dataset.act==='1':a.dataset.g===k))?'':'none')};
     f.appendChild(btn);
   });
 }
 
-fetch(`data/${encodeURIComponent(slug)}.json?v=${Date.now()}`).then(r=>{if(!r.ok)throw 0;return r.json()}).then(render)
+fetch(`${BASE}data/${SLUG}.json?v=${Date.now()}`).then(r=>{if(!r.ok)throw 0;return r.json()}).then(render)
  .catch(()=>{document.getElementById('app').innerHTML='<p class="muted" style="padding:80px 0">We couldn\'t load this summary. Please check the link or ask your account manager.</p>'});
 </script>
 </body>

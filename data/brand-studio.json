@@ -1,0 +1,152 @@
+{
+  "account": "Brand Studio",
+  "client": "Booking.com",
+  "asOf": "2026-11-26",
+  "budget": {
+    "used": 5359,
+    "inProgress": 3848,
+    "available": 3557,
+    "remaining": 7405,
+    "total": 12889,
+    "currency": "$"
+  },
+  "counts": {
+    "inProgress": 3,
+    "waitingApproval": 0,
+    "drafts": 3
+  },
+  "actions": [
+    {
+      "label": "Feedback on the Travel Proud Toolkit designs",
+      "due": null,
+      "project": "451847"
+    },
+    {
+      "label": "Feedback on the Brand Model walkthrough videos",
+      "due": null,
+      "project": "321003"
+    },
+    {
+      "label": "Feedback on the V1 video, then we close",
+      "due": null,
+      "project": "246634"
+    }
+  ],
+  "projectUrlTemplate": "https://app.superside.com/project/{id}/chat",
+  "projects": [
+    {
+      "id": "451847",
+      "title": "Travel Proud Toolkit",
+      "stage": "feedback",
+      "statusLabel": "Waiting on your feedback",
+      "estimateLow": 3093.8,
+      "estimateHigh": 3767.0,
+      "logged": 1771.43,
+      "pct": 47.0,
+      "deadline": "2026-11-13",
+      "doing": "Final exports prepared; ready to close once you sign off",
+      "action": "Feedback or sign-off on the latest designs and exports",
+      "next": {
+        "asset": "Final sign-off",
+        "date": null
+      },
+      "latest": "Latest designs and exports sent 11 Nov",
+      "assets": "V1 sent 6 Nov. Updated designs and exports sent 11 Nov"
+    },
+    {
+      "id": "321003",
+      "title": "Merch Store Product Showcase Templates",
+      "stage": "feedback",
+      "statusLabel": "Waiting on your feedback",
+      "estimateLow": 8998.6,
+      "estimateHigh": 9663.4,
+      "logged": 8974.88,
+      "pct": 92.9,
+      "deadline": "2026-10-30",
+      "doing": "Brand Model walkthrough videos delivered; awaiting your review",
+      "action": "Feedback on the 4 Brand Model videos",
+      "next": {
+        "asset": "Final sign-off",
+        "date": null
+      },
+      "latest": "4 Brand Model videos sent 30 Oct",
+      "assets": "Screen templates and images delivered. Brand Model walkthrough videos sent 30 Oct"
+    },
+    {
+      "id": "246634",
+      "title": "US Moments Campaign",
+      "stage": "feedback",
+      "statusLabel": "Waiting on your feedback",
+      "estimateLow": 14923.0,
+      "estimateHigh": 16135.2,
+      "logged": 16028.74,
+      "pct": 99.3,
+      "deadline": "2026-10-30",
+      "doing": "Video delivered; we close the project once you confirm",
+      "action": "Feedback on the V1 video",
+      "next": {
+        "asset": "Project close",
+        "date": null
+      },
+      "latest": "V1 video sent 20 Oct",
+      "assets": "Static assets and exports delivered. V1 video sent 20 Oct"
+    },
+    {
+      "id": "478098",
+      "title": "Brand Audit",
+      "stage": "prep",
+      "statusLabel": "In preparation",
+      "estimateLow": 0.0,
+      "estimateHigh": 0.0,
+      "logged": 0.0,
+      "pct": null,
+      "deadline": "2026-12-10",
+      "doing": "Preparing the project plan",
+      "action": null,
+      "next": {
+        "asset": "Project plan",
+        "date": null
+      },
+      "latest": "Not yet started",
+      "assets": "Awaiting kick-off"
+    },
+    {
+      "id": "442519",
+      "title": "Flash Sale Campaign Concepts",
+      "stage": "prep",
+      "statusLabel": "In preparation",
+      "estimateLow": 0.0,
+      "estimateHigh": 0.0,
+      "logged": 52.5,
+      "pct": null,
+      "deadline": "2026-11-13",
+      "doing": "Preparing the project plan",
+      "action": null,
+      "next": {
+        "asset": "Project plan",
+        "date": null
+      },
+      "latest": "Not yet started",
+      "assets": "Awaiting kick-off"
+    },
+    {
+      "id": "478083",
+      "title": "Hold Project",
+      "stage": "hold",
+      "statusLabel": "On hold",
+      "estimateLow": 0.0,
+      "estimateHigh": 0.0,
+      "logged": 0.0,
+      "pct": null,
+      "deadline": "2026-12-31",
+      "doing": "Waiting to start",
+      "action": null,
+      "next": {
+        "asset": "Project plan",
+        "date": null
+      },
+      "latest": "Not yet started",
+      "assets": "On hold"
+    }
+  ]
+}

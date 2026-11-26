@@ -1,0 +1,66 @@
+{
+  "account": "Connectivity",
+  "client": "Booking.com",
+  "asOf": "2026-11-26",
+  "budget": {
+    "used": 4791,
+    "inProgress": 3984,
+    "available": -165,
+    "remaining": 3819,
+    "total": 8485,
+    "currency": "$"
+  },
+  "counts": {
+    "inProgress": 2,
+    "waitingApproval": 0,
+    "drafts": 0
+  },
+  "actions": [
+    {
+      "label": "Share the final English copy for the CPP guide (expected around 18 Jan)",
+      "due": "2027-01-18",
+      "project": "336666"
+    }
+  ],
+  "projectUrlTemplate": "https://app.superside.com/project/{id}/chat",
+  "projects": [
+    {
+      "id": "336666",
+      "title": "CPP '27 Launch Go-to-Market Campaign",
+      "stage": "hold",
+      "statusLabel": "Waiting on final English copy",
+      "estimateLow": 4912.0,
+      "estimateHigh": 5249.8,
+      "logged": 2712.0,
+      "pct": 51.7,
+      "deadline": "2026-12-22",
+      "doing": "Preparing the approved template to receive the final English copy",
+      "action": "Share the final English copy (expected around 18 Jan)",
+      "next": {
+        "asset": "English CPP Guide loaded into the design, saved as PDF",
+        "date": "2027-01-25"
+      },
+      "latest": "Badge exports (.svg and .png) sent 23 Nov",
+      "assets": "Tier, combination and Seamless Experience badges approved 20 Nov. Exports sent 23 Nov. English guide V1 shared 6 Nov"
+    },
+    {
+      "id": "345827",
+      "title": "Journey-Based Theme Enablement Assets",
+      "stage": "revisions",
+      "statusLabel": "In revisions",
+      "estimateLow": 11938.5,
+      "estimateHigh": 12862.5,
+      "logged": 9403.38,
+      "pct": 73.1,
+      "deadline": "2026-11-30",
+      "doing": "Updating the prompt document and onboarding guidance following your 24 Nov feedback",
+      "action": null,
+      "next": {
+        "asset": "Updated prompt document and onboarding guidance",
+        "date": null
+      },
+      "latest": "Updated deck and prompt document sent 17 Nov. Header design options sent 23 Nov",
+      "assets": "Onboarding pack reviewed 12 Nov. Prompt document with 2 design options shared"
+    }
+  ]
+}

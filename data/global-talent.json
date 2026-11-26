@@ -1,19 +1,53 @@
 {
   "account": "Global Talent",
   "client": "Booking.com",
-  "asOf": "2026-11-13",
+  "asOf": "2026-11-26",
   "budget": {
-    "used": 15557,
-    "inProgress": 12882,
-    "available": 18881,
-    "remaining": 31763,
+    "used": 31406,
+    "inProgress": 8516,
+    "available": 7398,
+    "remaining": 15914,
+    "total": 47321,
     "currency": "$"
   },
   "counts": {
-    "inProgress": 10,
+    "inProgress": 8,
     "waitingApproval": 0,
     "drafts": 2
   },
+  "actions": [
+    {
+      "label": "Share the remaining footage for the Because of You Recognition Video (expected by 27 Nov)",
+      "due": "27 Nov",
+      "project": "479870"
+    },
+    {
+      "label": "Share the 12 monthly wins and highlights spreadsheet, plus any supporting visuals, for the Festive Deck",
+      "due": null,
+      "project": "479875"
+    },
+    {
+      "label": "Choose the intro style direction for People Behind the People (AI-generated look or a recoloured recreation)",
+      "due": null,
+      "project": "481650"
+    },
+    {
+      "label": "Confirm the Shanghai filming date once we reply on your request to move it from 1 Dec to 3 Dec",
+      "due": null,
+      "project": "417129"
+    },
+    {
+      "label": "Confirm whether we should write the copy for Talent Creator Lab 2027 Recruitment",
+      "due": null,
+      "project": "483416"
+    },
+    {
+      "label": "Share footage for Data Graduate Campaign",
+      "due": "14 Dec",
+      "project": "455348"
+    }
+  ],
+  "projectUrlTemplate": "https://app.superside.com/project/{id}/chat",
   "projects": [
     {
       "id": "328037",
@@ -22,32 +56,17 @@
       "statusLabel": "Waiting on your feedback",
       "estimateLow": 3327.6,
       "estimateHigh": 3555.6,
-      "logged": 3571.16,
-      "pct": 100.4,
+      "logged": 3711.16,
+      "pct": 104.4,
+      "deadline": "2026-11-20",
+      "doing": "Ready to apply any final edits as soon as your feedback arrives",
+      "action": "Confirm final feedback on the V2 carousel designs",
+      "next": {
+        "asset": "Final carousel once your feedback is in",
+        "date": null
+      },
       "latest": "V2 designs sent 11 Nov",
-      "deadline": "2026-10-30",
-      "assets": "2 photos supplied. Updated carousel designs sent",
-      "next": {
-        "asset": "Your feedback on the V2 carousel designs",
-        "date": null
-      }
-    },
-    {
-      "id": "344436",
-      "title": "Guess the role video series",
-      "stage": "revisions",
-      "statusLabel": "Video 3 in revisions",
-      "estimateLow": 8467.3,
-      "estimateHigh": 9143.3,
-      "logged": 8835.0,
-      "pct": 96.6,
-      "latest": "Video 3 V1 (16:9) sent 12 Nov. Videos 1 and 2 approved 10 Nov",
-      "deadline": "2026-10-22",
-      "assets": "16:9 sent for all 3 videos. 9:16 of video 3 outstanding",
-      "next": {
-        "asset": "9:16 version of Video 3",
-        "date": null
-      }
+      "assets": "2 photos supplied. Updated carousel designs sent"
     },
     {
       "id": "354103",
@@ -56,62 +75,55 @@
       "statusLabel": "Waiting on your feedback",
       "estimateLow": 8378.4,
       "estimateHigh": 9026.4,
-      "logged": 3972.5,
-      "pct": 47.4,
-      "latest": "Video 2 V3 sent 11 Nov",
-      "deadline": "2026-10-22",
-      "assets": "Carousel exports sent. Video 2 awaiting approval",
+      "logged": 4831.0,
+      "pct": 53.5,
+      "deadline": "2026-11-30",
+      "doing": "Treasury video updated with the new lower third (option 3 chosen on 24 Nov)",
+      "action": "Share stakeholder feedback on the latest Treasury video draft",
       "next": {
-        "asset": "Your feedback on Video 2 V3",
+        "asset": "Final Treasury video after sign-off",
         "date": null
-      }
+      },
+      "latest": "Next draft with lower third sent 24 Nov",
+      "assets": "Carousel exports sent. Treasury video draft awaiting sign-off"
     },
     {
       "id": "417129",
       "title": "Shanghai 2028 Grad Scheme Content and photography",
       "stage": "revisions",
-      "statusLabel": "In revisions",
+      "statusLabel": "Preparing for the Shanghai shoot",
       "estimateLow": 12227.6,
       "estimateHigh": 13158.6,
-      "logged": 5823.85,
-      "pct": 47.6,
-      "latest": "Look & feel V2 and Concept V1 sent 10 Nov. Concept mock-up in progress",
+      "logged": 11565.28,
+      "pct": 87.9,
       "deadline": "2027-06-30",
-      "assets": "Reference photos supplied. Office photos in customer media library",
+      "doing": "Reviewing your script feedback, finalising shooting schedules and crew details, and replying on the filming date",
+      "action": "Confirm the filming date once we reply on moving it from 1 Dec to 3 Dec",
       "next": {
-        "asset": "Concept mock-up",
+        "asset": "Updated script and questions, and a reply on the filming date",
         "date": null
-      }
+      },
+      "latest": "Shooting schedules for 1 and 2 Dec sent 20 Nov. Script feedback received 23 Nov",
+      "assets": "Concept V2, photography shot list (approved), script V1 and shooting schedules shared"
     },
     {
       "id": "420498",
       "title": "Culture Values Brand Refresh",
-      "stage": "revisions",
-      "statusLabel": "In revisions",
+      "stage": "feedback",
+      "statusLabel": "Waiting on your feedback",
       "estimateLow": 13495.0,
       "estimateHigh": 14634.5,
-      "logged": 8280.07,
-      "pct": 61.4,
-      "latest": "Values deck sent 9 Nov (stickers sent 6 Nov)",
-      "deadline": "2026-11-09",
-      "assets": "Moodboards, icons, stickers and values deck sent",
+      "logged": 11432.68,
+      "pct": 71.9,
+      "deadline": "2026-12-31",
+      "doing": "Refining colours and animations; the brand guide follows once these are approved",
+      "action": "Review the updated icons and confirm colours and animations",
       "next": {
-        "asset": "Revised values deck",
+        "asset": "Brand guide document, after colours and animations are approved",
         "date": null
-      }
-    },
-    {
-      "id": "428827",
-      "title": "BPD VRMA Booth video",
-      "stage": "delivered",
-      "statusLabel": "Delivered and approved",
-      "estimateLow": 1493.8,
-      "estimateHigh": 1599.8,
-      "logged": 1270.0,
-      "pct": 85.0,
-      "latest": "Footage selection V1 sent 26 Oct. Approved 26 Oct",
-      "deadline": "2026-10-26",
-      "assets": "1 of 1 sent (curated footage). Nothing outstanding"
+      },
+      "latest": "Updated icons sent 13 Nov. Values deck sent 9 Nov",
+      "assets": "Moodboards, icons, stickers and values deck sent"
     },
     {
       "id": "451838",
@@ -120,10 +132,16 @@
       "statusLabel": "Delivered and approved",
       "estimateLow": 1187.8,
       "estimateHigh": 1267.8,
-      "logged": 1040.0,
-      "pct": 87.6,
-      "latest": "V1 (2 options) sent 6 Nov. Option 2 approved 11 Nov. Closing",
+      "logged": 1250.0,
+      "pct": 98.6,
       "deadline": "2026-11-10",
+      "doing": "Completing project closure",
+      "action": null,
+      "next": {
+        "asset": "Nothing outstanding",
+        "date": null
+      },
+      "latest": "V1 (2 options) sent 6 Nov. Option 2 approved 11 Nov. Closing",
       "assets": "1 of 1 sent (slide deck). Nothing outstanding"
     },
     {
@@ -133,57 +151,131 @@
       "statusLabel": "In revisions",
       "estimateLow": 3750.3,
       "estimateHigh": 4022.3,
-      "logged": 1880.05,
-      "pct": 50.1,
-      "latest": "V1 (2 routes) sent 12 Nov. Route 1 chosen",
-      "deadline": "2026-12-17",
-      "assets": "V1 sent: teasers, carousel, IG story, feed post, screen",
+      "logged": 3268.59,
+      "pct": 81.3,
+      "deadline": "2026-11-30",
+      "doing": "Applying your 23 Nov feedback: wording changes, areas of study, testimonial label and new photography",
+      "action": null,
       "next": {
-        "asset": "Final campaign assets for Route 1",
-        "date": "2026-12-17"
-      }
+        "asset": "Updated campaign designs",
+        "date": "2026-11-26"
+      },
+      "latest": "Updated design sent 18 Nov. Feedback received 23 Nov",
+      "assets": "Teasers, carousel, IG story, feed post and screen sent. Bootcamp photos received 24 Nov"
     },
     {
       "id": "455322",
       "title": "Podcast Series - EC Episode",
       "stage": "prep",
-      "statusLabel": "In preparation",
-      "estimateLow": 0,
-      "estimateHigh": 0,
-      "logged": 350.0,
-      "pct": null,
-      "latest": "Nothing sent yet. Project timings to follow",
+      "statusLabel": "Project started",
+      "estimateLow": 9809.8,
+      "estimateHigh": 10565.8,
+      "logged": 805.0,
+      "pct": 7.6,
       "deadline": "2027-01-04",
-      "assets": "EC and ML recordings and 2 scripts supplied",
+      "doing": "Reviewing your stakeholder feedback and preparing the project timings",
+      "action": null,
       "next": {
-        "asset": "Project timings shared with you",
+        "asset": "Project timings and our view on which feedback fits the flow",
         "date": null
-      }
+      },
+      "latest": "Project plan approved 24 Nov. Stakeholder feedback received 25 Nov",
+      "assets": "EC and ML recordings and 2 scripts supplied. Nothing sent yet"
     },
     {
       "id": "455348",
-      "title": "Video Production - Data Graduate Campaign 2027",
+      "title": "Data Graduate Campaign 2027",
       "stage": "hold",
       "statusLabel": "Starts when footage arrives",
       "estimateLow": 12142.4,
       "estimateHigh": 13746.4,
       "logged": 595.0,
-      "pct": 4.9,
-      "latest": "Plan approved 6 Nov. Nothing sent yet",
+      "pct": 4.3,
       "deadline": "2027-02-01",
-      "assets": "0 of 1 sent. Your footage is due 14 Dec",
+      "doing": "On hold until your footage arrives",
+      "action": "Share your footage with us",
       "next": {
         "asset": "Your footage to us",
         "date": "2026-12-14"
-      }
-    }
-  ],
-  "actions": [
+      },
+      "latest": "Plan approved 6 Nov. Nothing sent yet",
+      "assets": "0 of 1 sent. Your footage is due 14 Dec"
+    },
     {
-      "label": "Share footage for Data Graduate Campaign",
-      "due": "14 Dec",
-      "project": "455348"
+      "id": "479870",
+      "title": "Because of You Recognition Video",
+      "stage": "prep",
+      "statusLabel": "In preparation",
+      "estimateLow": 3575.0,
+      "estimateHigh": 3852.0,
+      "logged": 119.0,
+      "pct": 3.1,
+      "deadline": "2026-12-15",
+      "doing": "Preparing the project plan and brief, and booking the video team",
+      "action": "Share the remaining footage and the music direction link",
+      "next": {
+        "asset": "Project plan for your approval",
+        "date": null
+      },
+      "latest": "Nothing sent yet. Questions on timing and music answered 23 Nov",
+      "assets": "Most footage expected by 24 Nov, the last video later in the week"
+    },
+    {
+      "id": "479875",
+      "title": "Talent All Hands Festive Deck 2026",
+      "stage": "prep",
+      "statusLabel": "Design in progress",
+      "estimateLow": 2812.6,
+      "estimateHigh": 3025.6,
+      "logged": 735.0,
+      "pct": 24.3,
+      "deadline": "2026-12-09",
+      "doing": "Designing the festive deck and a simple opening animation",
+      "action": "Share the 12 monthly wins and highlights, plus any supporting visuals",
+      "next": {
+        "asset": "Deck V1",
+        "date": "2026-11-27"
+      },
+      "latest": "Project plan approved 20 Nov",
+      "assets": "Highlights spreadsheet and visuals still to come from you"
+    },
+    {
+      "id": "481650",
+      "title": "People Behind the People",
+      "stage": "prep",
+      "statusLabel": "In preparation",
+      "estimateLow": 0,
+      "estimateHigh": 0,
+      "logged": 175.0,
+      "pct": null,
+      "deadline": "2026-12-14",
+      "doing": "Preparing the project summary and exploring options for the opening animation",
+      "action": "Tell us which intro style direction you prefer",
+      "next": {
+        "asset": "Project summary for your approval",
+        "date": null
+      },
+      "latest": "Nothing sent yet. Videos received 24 Nov",
+      "assets": "Videos for all featured colleagues and host photos supplied"
+    },
+    {
+      "id": "483416",
+      "title": "Talent Creator Lab 2027 Recruitment",
+      "stage": "prep",
+      "statusLabel": "In preparation",
+      "estimateLow": 0,
+      "estimateHigh": 0,
+      "logged": 157.5,
+      "pct": null,
+      "deadline": "2027-01-11",
+      "doing": "Reviewing the brief and preparing the project plan",
+      "action": "Confirm whether we should write the copy for these assets",
+      "next": {
+        "asset": "Project summary for your approval",
+        "date": null
+      },
+      "latest": "Brief received 20 Nov. Nothing sent yet",
+      "assets": "Brief submitted"
     }
-  ],
-  "projectUrlTemplate": "https://app.superside.com/project/{id}/chat"
+  ]
 }

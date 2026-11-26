@@ -1,0 +1,98 @@
+{
+  "account": "Regional Events",
+  "client": "Booking.com",
+  "asOf": "2026-11-26",
+  "budget": {
+    "used": 11499,
+    "inProgress": 1988,
+    "available": -2198,
+    "remaining": -211,
+    "total": 11289,
+    "currency": "$"
+  },
+  "counts": {
+    "inProgress": 3,
+    "waitingApproval": 0,
+    "drafts": 0
+  },
+  "projects": [
+    {
+      "id": "319827",
+      "title": "AI Live Captions",
+      "stage": "feedback",
+      "statusLabel": "Waiting on your feedback",
+      "estimateLow": 11631.5,
+      "estimateHigh": 12186.95,
+      "logged": 10815.5,
+      "pct": 88.7,
+      "latest": "Glossary update and session set-up guidance shared 3 Nov",
+      "deadline": "2026-12-14",
+      "doing": "Refining the glossary and preparing live caption and translation set-up for the Elevate event series",
+      "action": "Share your feedback on the updated glossary and any outstanding event details",
+      "assets": "Event details sheet and Elevate deck context supplied",
+      "next": {
+        "asset": "Your feedback on the glossary and set-up guidance",
+        "date": null
+      }
+    },
+    {
+      "id": "357024",
+      "title": "Elevate 2026 Presentation Design",
+      "stage": "revisions",
+      "statusLabel": "In progress, event by event",
+      "estimateLow": 11144.5,
+      "estimateHigh": 13870.0,
+      "logged": 11185.75,
+      "pct": 80.6,
+      "latest": "Germany (DACH) deck completed 2 Nov. Ireland deck was in internal review. Updated budget shared 24 Nov",
+      "deadline": "2026-12-30",
+      "doing": "Updating the Elevate decks market by market. Turkey, UK, Greece, CEE, Ireland and Italy are covered in the current budget",
+      "action": null,
+      "assets": "2025 Elevate master decks and reference decks supplied",
+      "next": {
+        "asset": "Next market deck",
+        "date": null
+      }
+    },
+    {
+      "id": "481684",
+      "title": "LPS Leadership Deck",
+      "stage": "revisions",
+      "statusLabel": "In progress",
+      "estimateLow": 3119.0,
+      "estimateHigh": 3754.25,
+      "logged": 2631.25,
+      "pct": 70.1,
+      "latest": "Project started 23 Nov. No version shared yet",
+      "deadline": "2026-11-27",
+      "doing": "Designing the leadership deck ahead of the 27 Nov deadline",
+      "action": null,
+      "assets": "Leadership deck in progress",
+      "next": {
+        "asset": "Leadership deck",
+        "date": "2026-11-27"
+      }
+    },
+    {
+      "id": "492136",
+      "title": "Self Service",
+      "stage": "prep",
+      "statusLabel": "In preparation",
+      "estimateLow": 0,
+      "estimateHigh": 0,
+      "logged": 0,
+      "pct": null,
+      "latest": "Nothing sent yet. Project set up 25 Nov",
+      "deadline": "2026-12-18",
+      "doing": "Preparing the project plan and estimate",
+      "action": null,
+      "assets": "Nothing sent yet",
+      "next": {
+        "asset": "Project plan and estimate",
+        "date": null
+      }
+    }
+  ],
+  "actions": [],
+  "projectUrlTemplate": "https://app.superside.com/project/{id}/chat"
+}

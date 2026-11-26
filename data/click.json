@@ -1,0 +1,70 @@
+{
+  "account": "Click",
+  "client": "Booking.com",
+  "asOf": "2026-11-26",
+  "budget": {
+    "used": 5696,
+    "inProgress": 4493,
+    "available": -1579,
+    "remaining": 2914,
+    "total": 8611,
+    "currency": "$",
+    "expires": { "date": "2026-11-30", "amount": 2914 }
+  },
+  "counts": { "inProgress": 3, "waitingApproval": 0, "drafts": 1 },
+  "actions": [],
+  "projectUrlTemplate": "https://app.superside.com/project/{id}/chat",
+  "projects": [
+    {
+      "id": "478118",
+      "title": "Click 2027 Marketing and Comms Assets",
+      "stage": "prep",
+      "statusLabel": "Started, in preparation",
+      "estimateLow": 11655.0,
+      "estimateHigh": 12499.2,
+      "logged": 315.0,
+      "pct": 2.5,
+      "hours": { "estimateHigh": 185.49, "logged": 4.5 },
+      "deadline": "2027-01-11",
+      "doing": "Getting started on the Click 2027 marketing and communications assets, delivered in two phases",
+      "action": null,
+      "next": { "asset": "First phase of assets", "date": "2026-12-10" },
+      "latest": "Project plan approved and work started 24 Nov. Cost split by phase shared 24 Nov",
+      "assets": "No assets delivered yet. Phase 1 due 10 Dec 2026, phase 2 due 11 Jan 2027"
+    },
+    {
+      "id": "347238",
+      "title": "Click APAC On-site Support",
+      "stage": "delivered",
+      "statusLabel": "Support delivered, hours being reconciled",
+      "estimateLow": 12794.06,
+      "estimateHigh": 13454.06,
+      "logged": 11824.06,
+      "pct": 87.9,
+      "hours": { "estimateHigh": 122.0, "logged": 95.0 },
+      "deadline": "2026-11-16",
+      "doing": "Finalising the hours reconciliation for the APAC on-site support",
+      "action": null,
+      "next": { "asset": "Final reconciliation of on-site hours", "date": null },
+      "latest": "Project started 5 Oct so the team could log their APAC on-site time",
+      "assets": "On-site support hours-based. Nothing outstanding from you"
+    },
+    {
+      "id": "244891",
+      "title": "Click 2026 AMS Weekend Work",
+      "stage": "delivered",
+      "statusLabel": "Weekend work completed, hours reconciled",
+      "estimateLow": 7900.0,
+      "estimateHigh": 8211.0,
+      "logged": 6557.35,
+      "pct": 79.9,
+      "hours": { "estimateHigh": 58.75, "logged": 36.0 },
+      "deadline": "2026-10-30",
+      "doing": "Recording the hours worked over the 16 and 17 May weekend ahead of Click EMEA",
+      "action": null,
+      "next": { "asset": "Project closure", "date": null },
+      "latest": "Project started 20 Oct to record the weekend hours, at the agreed 2x weekend rate",
+      "assets": "Hours-based weekend support. Nothing outstanding from you"
+    }
+  ]
+}

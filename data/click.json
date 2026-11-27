@@ -3,19 +3,19 @@
   "client": "Booking.com",
   "asOf": "2026-11-27",
   "budget": {
-    "used": 6208,
-    "inProgress": 3981,
-    "available": -1579,
-    "remaining": 2402,
+    "used": 7378,
+    "inProgress": 2982,
+    "available": -1750,
+    "remaining": 1233,
     "total": 8611,
     "currency": "$",
     "expires": {
       "date": "2026-11-30",
-      "amount": 2402
+      "amount": 1233
     }
   },
   "counts": {
-    "inProgress": 3,
+    "inProgress": 2,
     "waitingApproval": 0,
     "drafts": 3
   },
@@ -29,44 +29,21 @@
       "statusLabel": "In production, phase 1 underway",
       "estimateLow": 11700.00,
       "estimateHigh": 12500.00,
-      "logged": 315.00,
-      "pct": 2.5,
+      "logged": 514.57,
+      "pct": 4.1,
       "hours": {
         "estimateHigh": 185.49,
-        "logged": 4.5
+        "logged": 7.5
       },
       "deadline": "2027-01-11",
       "doing": "Designing phase 1: banners, Click. Toolkit, toolkit templates and the elevator pitch deck",
       "action": null,
       "next": {
-        "asset": "Phase 1: banners, toolkit, templates and deck",
-        "date": "2026-12-10"
+        "asset": "Look and feel, first draft",
+        "date": "2026-11-30"
       },
       "latest": "You confirmed the start on 23 Nov and work began 24 Nov. Cost split by phase shared 24 Nov",
       "assets": "No assets delivered yet. Phase 1 due by 10 Dec 2026, phase 2 due by 11 Jan 2027"
-    },
-    {
-      "id": "347238",
-      "title": "Click APAC On-site Support",
-      "stage": "delivered",
-      "statusLabel": "Support delivered, hours being reconciled",
-      "estimateLow": 12800.00,
-      "estimateHigh": 13500.00,
-      "logged": 11824.06,
-      "pct": 87.6,
-      "hours": {
-        "estimateHigh": 122.0,
-        "logged": 95.0
-      },
-      "deadline": "2026-11-16",
-      "doing": "Finalising the hours reconciliation for the APAC on-site support",
-      "action": null,
-      "next": {
-        "asset": "Final reconciliation of on-site hours",
-        "date": null
-      },
-      "latest": "Project started 5 Oct so the team could log their APAC on-site time",
-      "assets": "On-site support, charged by hours worked. Nothing outstanding from you"
     },
     {
       "id": "244891",

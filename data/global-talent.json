@@ -3,20 +3,20 @@
   "client": "Booking.com",
   "asOf": "2026-11-27",
   "budget": {
-    "used": 32549,
-    "inProgress": 8042,
-    "available": 6729,
-    "remaining": 14771,
+    "used": 32794,
+    "inProgress": 10463,
+    "available": 4064,
+    "remaining": 14526,
     "total": 47321,
     "currency": "$",
     "expires": {
       "date": "2027-02-28",
-      "amount": 14771
+      "amount": 14526
     }
   },
   "counts": {
-    "inProgress": 8,
-    "waitingApproval": 8,
+    "inProgress": 9,
+    "waitingApproval": 7,
     "drafts": 2
   },
   "actions": [
@@ -46,12 +46,7 @@
       "project": "453571"
     },
     {
-      "label": "Share the videos for the Because of You Recognition Video (expected 27 Nov)",
-      "due": "27 Nov",
-      "project": "479870"
-    },
-    {
-      "label": "Share the 12 monthly wins and highlights for the Festive Deck",
+      "label": "Share the monthly highlights and confirm copy length and visuals for the Festive Deck",
       "due": null,
       "project": "479875"
     },
@@ -123,11 +118,11 @@
         "logged": 150.25
       },
       "deadline": "2027-06-30",
-      "doing": "Preparing for the Shanghai shoot, including your request to move filming to 3 Dec",
+      "doing": "Preparing for the Shanghai shoot: video on 2 Dec, photos on 3 Dec",
       "action": "Approve the V2 interview questions, run of day and wardrobe guide",
       "next": {
-        "asset": "Reply on the filming date and final shoot details",
-        "date": null
+        "asset": "Video shoot in Shanghai",
+        "date": "2026-12-02"
       },
       "latest": "V2 interview questions, run of day and wardrobe guide sent 26 Nov. Home clips received 27 Nov",
       "assets": "Concept V2, approved photography shot list, interview questions V2 and shooting schedules shared. Home clips supplied"
@@ -192,13 +187,13 @@
         "logged": 40.05
       },
       "deadline": "2026-11-30",
-      "doing": "Checking your question on the bootcamp photos. Ready to make final changes after your feedback",
+      "doing": "Ready to make final changes after your feedback",
       "action": "Review the updated campaign designs",
       "next": {
         "asset": "Final campaign designs after your feedback",
         "date": null
       },
-      "latest": "Updated designs with your 23 Nov changes sent 26 Nov",
+      "latest": "Updated designs with your 23 Nov changes sent 26 Nov. Bootcamp photo question answered 27 Nov",
       "assets": "Teasers, hiring carousel, IG story, feed post and digital screen sent. Bootcamp photos supplied 24 Nov"
     },
     {
@@ -218,10 +213,10 @@
       "doing": "Starting the edit, trimming where possible to reflect your stakeholder feedback",
       "action": null,
       "next": {
-        "asset": "Key visual and first edit",
-        "date": null
+        "asset": "Key visual",
+        "date": "2026-12-15"
       },
-      "latest": "Plan approved 24 Nov. Reply on your stakeholder feedback sent 26 Nov",
+      "latest": "Plan approved 24 Nov. You agreed on 27 Nov that we trim the edit to reflect your stakeholder feedback",
       "assets": "EC and ML recordings and 2 scripts supplied. Nothing sent yet"
     },
     {
@@ -248,33 +243,10 @@
       "assets": "0 of 1 sent. Your footage is due 14 Dec"
     },
     {
-      "id": "479870",
-      "title": "Because of You Recognition Video",
-      "stage": "prep",
-      "statusLabel": "Waiting on your videos",
-      "estimateLow": 3600.0,
-      "estimateHigh": 3900.0,
-      "logged": 0.0,
-      "pct": 0.0,
-      "hours": {
-        "estimateHigh": 41.97,
-        "logged": 1.7
-      },
-      "deadline": "2026-12-15",
-      "doing": "Ready to share the project plan once your videos arrive",
-      "action": "Share the videos for this project (expected 27 Nov)",
-      "next": {
-        "asset": "Project plan for your approval",
-        "date": null
-      },
-      "latest": "Nothing sent yet. Questions on timing, music and the opening animation answered 23 Nov",
-      "assets": "Videos expected from you by 27 Nov"
-    },
-    {
       "id": "479875",
       "title": "Talent All Hands Festive Deck 2026",
-      "stage": "prep",
-      "statusLabel": "Design in progress",
+      "stage": "revisions",
+      "statusLabel": "Building out your chosen route",
       "estimateLow": 2850.0,
       "estimateHigh": 3050.0,
       "logged": 1485.0,
@@ -284,24 +256,24 @@
         "logged": 15.75
       },
       "deadline": "2026-12-09",
-      "doing": "Designing the Advent calendar themed festive deck",
-      "action": "Share the 12 monthly wins and highlights",
+      "doing": "Developing Option 1 (Windows) into the full advent calendar deck",
+      "action": "Share the monthly highlights and confirm copy length and visuals",
       "next": {
-        "asset": "Deck V1",
-        "date": "2026-11-27"
+        "asset": "Full deck in Option 1",
+        "date": null
       },
-      "latest": "Project plan approved 20 Nov",
-      "assets": "Monthly highlights still to come from you. No visuals needed, we will use festive elements"
+      "latest": "V1 with two routes sent 27 Nov. You chose Option 1 (Windows) the same day",
+      "assets": "Deck V1 (2 routes) sent. Monthly highlights still to come from you"
     },
     {
       "id": "481650",
       "title": "People Behind the People",
       "stage": "prep",
-      "statusLabel": "Summary approved",
+      "statusLabel": "Project started",
       "estimateLow": 11150.0,
       "estimateHigh": 12050.0,
-      "logged": 0.0,
-      "pct": 0.0,
+      "logged": 245.0,
+      "pct": 2.0,
       "hours": {
         "estimateHigh": 130.69,
         "logged": 3.5
@@ -336,7 +308,7 @@
         "asset": "Project summary for your approval",
         "date": null
       },
-      "latest": "Brief received 20 Nov. Nothing sent yet",
+      "latest": "Brief received 20 Nov. You will let us know about the copy on Monday 30 Nov",
       "assets": "Brief submitted"
     }
   ]

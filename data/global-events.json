@@ -3,15 +3,15 @@
   "client": "Booking.com",
   "asOf": "2026-11-27",
   "budget": {
-    "used": 12067,
-    "inProgress": 3973,
+    "used": 12467,
+    "inProgress": 3573,
     "available": -259,
-    "remaining": 3713,
+    "remaining": 3313,
     "total": 15780,
     "currency": "$",
     "expires": {
       "date": "2027-02-28",
-      "amount": 3713
+      "amount": 3313
     }
   },
   "counts": {
@@ -63,11 +63,11 @@
       "statusLabel": "Waiting on your feedback",
       "estimateLow": 4300.0,
       "estimateHigh": 4650.0,
-      "logged": 2220.0,
-      "pct": 47.7,
+      "logged": 2620.0,
+      "pct": 56.3,
       "hours": {
         "estimateHigh": 50.45,
-        "logged": 24.0
+        "logged": 28.0
       },
       "deadline": "2026-11-26",
       "doing": "Print-ready files sent. Waiting to hear if your printers need a different output",

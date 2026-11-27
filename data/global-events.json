@@ -16,17 +16,17 @@
   },
   "counts": {
     "inProgress": 4,
-    "waitingApproval": 0,
-    "drafts": 13
+    "waitingApproval": 2,
+    "drafts": 11
   },
   "actions": [
     {
-      "label": "Confirm any specific print output the printers need for the Appreciation Booklet",
+      "label": "Check the print files and tell us if your printers need a different output",
       "due": null,
       "project": "457094"
     },
     {
-      "label": "Share your brief so we can resume Global Events Strategy Phase II",
+      "label": "Share your brief so we can resume",
       "due": null,
       "project": "334090"
     }
@@ -38,10 +38,10 @@
       "title": "Photography Overview for Events",
       "stage": "delivered",
       "statusLabel": "Delivered and approved",
-      "estimateLow": 662.4,
-      "estimateHigh": 698.4,
+      "estimateLow": 700.0,
+      "estimateHigh": 700.0,
       "logged": 210.0,
-      "pct": 30.1,
+      "pct": 30.0,
       "hours": {
         "estimateHigh": 10.92,
         "logged": 3.0
@@ -53,44 +53,44 @@
         "asset": "Project closure",
         "date": null
       },
-      "latest": "Comments resolved and images renamed, confirmed 24 Nov. Approved to close 25 Nov",
-      "assets": "Photography overview deck delivered. Nothing outstanding"
+      "latest": "Comments resolved and images renamed 24 Nov. You confirmed it is ready to close 25 Nov",
+      "assets": "Photography overview deck updated with the new images. Nothing outstanding"
     },
     {
       "id": "457094",
       "title": "Events Team Appreciation Booklet 2026",
       "stage": "feedback",
       "statusLabel": "Waiting on your feedback",
-      "estimateLow": 4295.9,
-      "estimateHigh": 4628.9,
+      "estimateLow": 4300.0,
+      "estimateHigh": 4650.0,
       "logged": 2220.0,
-      "pct": 48.0,
+      "pct": 47.7,
       "hours": {
         "estimateHigh": 50.45,
         "logged": 24.0
       },
       "deadline": "2026-11-26",
-      "doing": "Ready-for-print files sent, awaiting your confirmation of print requirements",
-      "action": "Confirm the files work for your printers, or tell us if a different output is needed",
+      "doing": "Print-ready files sent. Waiting to hear if your printers need a different output",
+      "action": "Check the print files and tell us if your printers need a different output",
       "next": {
         "asset": "Your confirmation of the print files",
         "date": null
       },
-      "latest": "Ready-for-print PDF/X files sent 26 Nov. V1 design sent and loved 25 Nov",
-      "assets": "1 booklet design (V1) approved. Ready-for-print files sent"
+      "latest": "Print-ready PDF/X files sent 26 Nov. V1 design shared 25 Nov and well received",
+      "assets": "Booklet design (V1) confirmed. Print-ready files sent 26 Nov"
     },
     {
       "id": "385082",
       "title": "ELT Connects Motion Design",
       "stage": "revisions",
       "statusLabel": "In revisions",
-      "estimateLow": 17764.0,
-      "estimateHigh": 19375.0,
-      "logged": 25690.73,
-      "pct": 132.6,
+      "estimateLow": 17800.0,
+      "estimateHigh": 19400.0,
+      "logged": 18610.01,
+      "pct": 95.9,
       "hours": {
         "estimateHigh": 215.9,
-        "logged": 282.6
+        "logged": 205.6
       },
       "deadline": "2026-11-02",
       "doing": "Adding the Payments in Brazil highlight and switching the closing logo to the standard Booking.com logo",
@@ -107,13 +107,13 @@
       "title": "Global Events Strategy Phase II",
       "stage": "hold",
       "statusLabel": "On hold, waiting for your brief",
-      "estimateLow": 4540.8,
-      "estimateHigh": 4900.8,
-      "logged": 4305.0,
-      "pct": 87.8,
+      "estimateLow": 4550.0,
+      "estimateHigh": 4950.0,
+      "logged": 3740.8,
+      "pct": 75.6,
       "hours": {
         "estimateHigh": 53.04,
-        "logged": 49.5
+        "logged": 41.44
       },
       "deadline": "2026-11-30",
       "doing": "Paused until we receive your brief for the next stage",
@@ -122,7 +122,7 @@
         "asset": "Your brief for the next stage",
         "date": null
       },
-      "latest": "Updated project plan shared 19 Oct",
+      "latest": "Project plan updated 19 Oct",
       "assets": "Phases 1 and 2 in scope. Strategy, playbook and handbook to follow"
     }
   ]

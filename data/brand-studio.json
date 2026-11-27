@@ -16,22 +16,22 @@
   },
   "counts": {
     "inProgress": 3,
-    "waitingApproval": 0,
+    "waitingApproval": 3,
     "drafts": 3
   },
   "actions": [
     {
-      "label": "Feedback on the Travel Proud Toolkit designs",
+      "label": "Confirm the final files sent 11 Nov so we can close",
       "due": null,
       "project": "451847"
     },
     {
-      "label": "Feedback on the Brand Model walkthrough videos",
+      "label": "Feedback on the 4 Brand Model videos sent 30 Oct",
       "due": null,
       "project": "321003"
     },
     {
-      "label": "Feedback on the V1 video, then we close",
+      "label": "Confirm you are happy with the video so we can close",
       "due": null,
       "project": "246634"
     }
@@ -43,69 +43,69 @@
       "title": "Travel Proud Toolkit",
       "stage": "feedback",
       "statusLabel": "Waiting on your feedback",
-      "estimateLow": 3093.8,
-      "estimateHigh": 3767.0,
+      "estimateLow": 3100.0,
+      "estimateHigh": 3800.0,
       "logged": 1771.43,
-      "pct": 47.0,
+      "pct": 46.6,
       "hours": {
         "estimateHigh": 48.8,
         "logged": 22.55
       },
       "deadline": "2026-11-13",
-      "doing": "Final exports prepared; ready to close once you sign off",
-      "action": "Feedback or sign-off on the latest designs and exports",
+      "doing": "Final designs and exports ready; we close once you confirm",
+      "action": "Confirm the final files sent 11 Nov so we can close",
       "next": {
         "asset": "Final sign-off",
         "date": null
       },
-      "latest": "Latest designs and exports sent 11 Nov",
-      "assets": "V1 sent 6 Nov. Updated designs and exports sent 11 Nov"
+      "latest": "Final designs and exports sent 11 Nov",
+      "assets": "V1 sent 6 Nov. Updated version sent 10 Nov. Final designs and exports sent 11 Nov"
     },
     {
       "id": "321003",
       "title": "Merch Store Product Showcase Templates",
       "stage": "feedback",
       "statusLabel": "Waiting on your feedback",
-      "estimateLow": 8998.6,
-      "estimateHigh": 9663.4,
-      "logged": 8974.88,
-      "pct": 92.9,
+      "estimateLow": 9000.0,
+      "estimateHigh": 9700.0,
+      "logged": 8955.58,
+      "pct": 92.3,
       "hours": {
         "estimateHigh": 123.56,
         "logged": 114.55
       },
       "deadline": "2026-10-30",
-      "doing": "Brand Model walkthrough videos delivered; awaiting your review",
-      "action": "Feedback on the 4 Brand Model videos",
+      "doing": "Ready to close once you are happy with the videos",
+      "action": "Feedback on the 4 Brand Model videos sent 30 Oct",
       "next": {
         "asset": "Final sign-off",
         "date": null
       },
       "latest": "4 Brand Model videos sent 30 Oct",
-      "assets": "Screen templates and images delivered. Brand Model walkthrough videos sent 30 Oct"
+      "assets": "Screen templates, A-frame templates and images delivered. Updated template options sent 28 Sep. 4 Brand Model videos sent 30 Oct"
     },
     {
       "id": "246634",
       "title": "US Moments Campaign",
       "stage": "feedback",
       "statusLabel": "Waiting on your feedback",
-      "estimateLow": 14923.0,
-      "estimateHigh": 16135.2,
-      "logged": 16028.74,
-      "pct": 99.3,
+      "estimateLow": 14950.0,
+      "estimateHigh": 16150.0,
+      "logged": 13727.25,
+      "pct": 85.0,
       "hours": {
         "estimateHigh": 189.28,
         "logged": 187.98
       },
       "deadline": "2026-10-30",
-      "doing": "Video delivered; we close the project once you confirm",
-      "action": "Feedback on the V1 video",
+      "doing": "Video finished; we close the project once you confirm",
+      "action": "Confirm you are happy with the video so we can close",
       "next": {
         "asset": "Project close",
         "date": null
       },
-      "latest": "V1 video sent 20 Oct",
-      "assets": "Static assets and exports delivered. V1 video sent 20 Oct"
+      "latest": "Finished video sent 20 Oct",
+      "assets": "Updated static asset and exports sent 8 Oct. Finished video sent 20 Oct"
     },
     {
       "id": "478098",
@@ -137,7 +137,7 @@
       "statusLabel": "In preparation",
       "estimateLow": 0,
       "estimateHigh": 0,
-      "logged": 52.5,
+      "logged": 0,
       "pct": null,
       "hours": {
         "estimateHigh": 0.0,

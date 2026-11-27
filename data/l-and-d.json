@@ -16,55 +16,57 @@
   },
   "counts": {
     "inProgress": 2,
-    "waitingApproval": 0,
+    "waitingApproval": 1,
     "drafts": 10
   },
+  "actions": [
+    {
+      "label": "Let us know if the links were kept in the Graduate Learning Journey deck so we can close",
+      "due": null,
+      "project": "299635"
+    }
+  ],
+  "projectUrlTemplate": "https://app.superside.com/project/{id}/chat",
   "projects": [
     {
       "id": "299635",
       "title": "Graduate Learning Journey - Presentation Design",
       "stage": "feedback",
       "statusLabel": "Waiting on your confirmation",
-      "estimateLow": 5226.2,
-      "estimateHigh": 5625.2,
-      "logged": 6287.5,
-      "pct": 111.8,
-      "latest": "Updated deck shared 21 Oct",
+      "estimateLow": 5250.00,
+      "estimateHigh": 5650.00,
+      "logged": 5336.20,
+      "pct": 94.4,
+      "hours": {"estimateHigh": 61.55, "logged": 72.25},
       "deadline": "2026-11-20",
-      "assets": "Graduate learning journey deck shared. Optional slide template not yet confirmed",
-      "doing": "Standing by for your confirmation that the deck is final",
-      "action": "Confirm the deck is final (and whether the links were kept) so we can close the project",
+      "doing": "Ready to close once you confirm the links",
+      "action": "Let us know if the links were kept in the deck shared with the graduates so we can close the project",
       "next": {
-        "asset": "Your confirmation that the deck is final",
+        "asset": "Your reply on the deck links",
         "date": null
-      }
+      },
+      "latest": "Updated deck shared 21 Oct. Your team confirmed 29 Oct the deck is ready and shared with the graduates",
+      "assets": "Graduate learning journey deck delivered and shared with the graduates"
     },
     {
       "id": "467473",
       "title": "Connected Learning All Hands Template",
       "stage": "delivered",
       "statusLabel": "Delivered and approved",
-      "estimateLow": 1442.0,
-      "estimateHigh": 1529.6,
-      "logged": 1325.0,
-      "pct": 86.6,
-      "latest": "Updated slide designs (several options) sent 23 Nov. All work approved 23 Nov",
+      "estimateLow": 1450.00,
+      "estimateHigh": 1550.00,
+      "logged": 1325.00,
+      "pct": 85.5,
+      "hours": {"estimateHigh": 24.15, "logged": 20.75},
       "deadline": "2026-11-18",
-      "assets": "Template slides delivered and approved. Nothing outstanding",
       "doing": "Closing the project",
       "action": null,
       "next": {
         "asset": "Project closure",
         "date": null
-      }
+      },
+      "latest": "Updated slide designs (several options) sent 23 Nov. All work approved 23 Nov",
+      "assets": "Template slides delivered and approved. Nothing outstanding"
     }
-  ],
-  "actions": [
-    {
-      "label": "Confirm the Graduate Learning Journey deck is final so we can close",
-      "due": null,
-      "project": "299635"
-    }
-  ],
-  "projectUrlTemplate": "https://app.superside.com/project/{id}/chat"
+  ]
 }

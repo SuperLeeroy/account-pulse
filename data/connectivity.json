@@ -16,13 +16,13 @@
   },
   "counts": {
     "inProgress": 2,
-    "waitingApproval": 0,
+    "waitingApproval": 1,
     "drafts": 0
   },
   "actions": [
     {
       "label": "Share the final English copy for the CPP guide (expected around 18 Jan)",
-      "due": "2027-01-18",
+      "due": "18 Jan",
       "project": "336666"
     }
   ],
@@ -30,22 +30,22 @@
   "projects": [
     {
       "id": "336666",
-      "title": "CPP '27 Launch Go-to-Market Campaign",
+      "title": "CPP 27 Go-to-Market Campaign",
       "stage": "hold",
       "statusLabel": "Waiting on final English copy",
-      "estimateLow": 4912.0,
-      "estimateHigh": 5249.8,
-      "logged": 2712.0,
-      "pct": 51.7,
+      "estimateLow": 4950.00,
+      "estimateHigh": 5250.00,
+      "logged": 1977.00,
+      "pct": 37.7,
       "hours": {
         "estimateHigh": 83.83,
         "logged": 41.7
       },
       "deadline": "2026-12-22",
-      "doing": "Preparing the approved template to receive the final English copy",
+      "doing": "Ready to load your final English copy into the approved template when it arrives",
       "action": "Share the final English copy (expected around 18 Jan)",
       "next": {
-        "asset": "English CPP Guide loaded into the design, saved as PDF",
+        "asset": "English CPP Guide loaded into the design and saved as PDF (target around 25 Jan)",
         "date": null
       },
       "latest": "Timings confirmed 26 Nov. Badge exports (.svg and .png) sent 23 Nov",
@@ -56,23 +56,23 @@
       "title": "Journey-Based Theme Enablement Assets",
       "stage": "revisions",
       "statusLabel": "In revisions",
-      "estimateLow": 11938.5,
-      "estimateHigh": 12862.5,
-      "logged": 9427.64,
-      "pct": 73.3,
+      "estimateLow": 11950.00,
+      "estimateHigh": 12900.00,
+      "logged": 9422.32,
+      "pct": 73.0,
       "hours": {
         "estimateHigh": 143.3,
         "logged": 105.15
       },
       "deadline": "2026-11-30",
-      "doing": "Updating the prompt document and onboarding guidance following your 24 Nov feedback",
+      "doing": "Reviewing your 24 Nov feedback on the prompt document and onboarding guidance",
       "action": null,
       "next": {
         "asset": "Updated prompt document and onboarding guidance",
         "date": null
       },
-      "latest": "Updated deck and prompt document sent 17 Nov. Header design options sent 23 Nov",
-      "assets": "Onboarding pack reviewed 12 Nov. Prompt document with 2 design options shared"
+      "latest": "Your feedback on the prompt received 24 Nov. Header design options sent 23 Nov",
+      "assets": "Onboarding pack reviewed 12 Nov. Updated deck and prompt document sent 17 Nov. 2 header design options shared 23 Nov"
     }
   ]
 }

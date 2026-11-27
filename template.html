@@ -270,7 +270,7 @@ function card(p,tpl){
       ${p.doing?`<b class="l">Working on</b><p>${p.doing}</p>`:''}
       <b class="l">Latest</b><p>${p.latest}</p>
       <b class="l">Estimate</b><p class="est">${est}</p>
-      <b class="l">Logged so far</b><p>${fmt(p.logged)}${p.hours&&p.hours.estimateHigh?` <span style="color:var(--softer)">· ${p.hours.logged}h of ${p.hours.estimateHigh}h</span>`:''}</p>
+      <b class="l">Logged so far</b><p>${fmt(p.logged)}</p>
       <b class="l">Deliverables</b><p>${p.assets}</p>
       ${p.deadline&&p.deadline>=todayISO&&p.stage!=='delivered'?`<b class="l">Final delivery</b><p>${fdate(p.deadline)}</p>`:''}
     </div></article>`);
@@ -316,7 +316,7 @@ function render(d){
           <div class="row"><i style="--c:var(--mint)"></i><span>Committed to projects in progress</span><b>${fmt(b.inProgress)}</b></div>
           <div class="row"><i style="--c:var(--spark)"></i><span>Available</span><b>${fmt(b.available)}</b></div>
         </div>
-        ${b.expires?`<p class="muted" style="margin-top:12px;font-size:13px">Budget expires ${new Date(b.expires.date+'T00:00:00').toLocaleDateString('en-GB',{day:'numeric',month:'long',year:'numeric'})}</p>`:''}
+        ${b.expires?`<p class="muted" style="margin-top:12px;font-size:13px">${b.expires.amount!=null?fmt(b.expires.amount)+' of your budget expires on ':'Budget expires '}${new Date(b.expires.date+'T00:00:00').toLocaleDateString('en-GB',{day:'numeric',month:'long',year:'numeric'})}</p>`:''}
       </div>
     </div>
   </section>

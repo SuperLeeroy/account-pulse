@@ -3,15 +3,15 @@
   "client": "Booking.com",
   "asOf": "2026-11-27",
   "budget": {
-    "used": 4816,
-    "inProgress": 3960,
-    "available": -165,
-    "remaining": 3795,
-    "total": 8485,
+    "used": 4996,
+    "inProgress": 3871,
+    "available": -256,
+    "remaining": 3615,
+    "total": 8610,
     "currency": "$",
     "expires": {
       "date": "2026-12-31",
-      "amount": 3670
+      "amount": 3490
     }
   },
   "counts": {
@@ -33,10 +33,10 @@
       "title": "CPP 27 Go-to-Market Campaign",
       "stage": "hold",
       "statusLabel": "Waiting on final English copy",
-      "estimateLow": 4950.00,
-      "estimateHigh": 5250.00,
-      "logged": 1977.00,
-      "pct": 37.7,
+      "estimateLow": 4950.0,
+      "estimateHigh": 5250.0,
+      "logged": 2157.0,
+      "pct": 41.1,
       "hours": {
         "estimateHigh": 83.83,
         "logged": 41.7
@@ -56,8 +56,8 @@
       "title": "Journey-Based Theme Enablement Assets",
       "stage": "revisions",
       "statusLabel": "In revisions",
-      "estimateLow": 11950.00,
-      "estimateHigh": 12900.00,
+      "estimateLow": 11950.0,
+      "estimateHigh": 12900.0,
       "logged": 9422.32,
       "pct": 73.0,
       "hours": {

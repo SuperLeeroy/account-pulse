@@ -1,14 +1,18 @@
 {
   "account": "Brand Studio",
   "client": "Booking.com",
-  "asOf": "2026-11-26",
+  "asOf": "2026-11-27",
   "budget": {
-    "used": 5359,
+    "used": 5380,
     "inProgress": 3848,
-    "available": 3557,
-    "remaining": 7405,
+    "available": 3536,
+    "remaining": 7384,
     "total": 12889,
-    "currency": "$"
+    "currency": "$",
+    "expires": {
+      "date": "2027-02-28",
+      "amount": 7384
+    }
   },
   "counts": {
     "inProgress": 3,
@@ -43,6 +47,10 @@
       "estimateHigh": 3767.0,
       "logged": 1771.43,
       "pct": 47.0,
+      "hours": {
+        "estimateHigh": 48.8,
+        "logged": 22.55
+      },
       "deadline": "2026-11-13",
       "doing": "Final exports prepared; ready to close once you sign off",
       "action": "Feedback or sign-off on the latest designs and exports",
@@ -62,6 +70,10 @@
       "estimateHigh": 9663.4,
       "logged": 8974.88,
       "pct": 92.9,
+      "hours": {
+        "estimateHigh": 123.56,
+        "logged": 114.55
+      },
       "deadline": "2026-10-30",
       "doing": "Brand Model walkthrough videos delivered; awaiting your review",
       "action": "Feedback on the 4 Brand Model videos",
@@ -81,6 +93,10 @@
       "estimateHigh": 16135.2,
       "logged": 16028.74,
       "pct": 99.3,
+      "hours": {
+        "estimateHigh": 189.28,
+        "logged": 187.98
+      },
       "deadline": "2026-10-30",
       "doing": "Video delivered; we close the project once you confirm",
       "action": "Feedback on the V1 video",
@@ -96,10 +112,14 @@
       "title": "Brand Audit",
       "stage": "prep",
       "statusLabel": "In preparation",
-      "estimateLow": 0.0,
-      "estimateHigh": 0.0,
-      "logged": 0.0,
+      "estimateLow": 0,
+      "estimateHigh": 0,
+      "logged": 0,
       "pct": null,
+      "hours": {
+        "estimateHigh": 0.0,
+        "logged": 0.0
+      },
       "deadline": "2026-12-10",
       "doing": "Preparing the project plan",
       "action": null,
@@ -115,10 +135,14 @@
       "title": "Flash Sale Campaign Concepts",
       "stage": "prep",
       "statusLabel": "In preparation",
-      "estimateLow": 0.0,
-      "estimateHigh": 0.0,
+      "estimateLow": 0,
+      "estimateHigh": 0,
       "logged": 52.5,
       "pct": null,
+      "hours": {
+        "estimateHigh": 0.0,
+        "logged": 0.75
+      },
       "deadline": "2026-11-13",
       "doing": "Preparing the project plan",
       "action": null,
@@ -134,10 +158,14 @@
       "title": "Hold Project",
       "stage": "hold",
       "statusLabel": "On hold",
-      "estimateLow": 0.0,
-      "estimateHigh": 0.0,
-      "logged": 0.0,
+      "estimateLow": 0,
+      "estimateHigh": 0,
+      "logged": 0,
       "pct": null,
+      "hours": {
+        "estimateHigh": 0.0,
+        "logged": 0.0
+      },
       "deadline": "2026-12-31",
       "doing": "Waiting to start",
       "action": null,

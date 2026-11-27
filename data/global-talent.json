@@ -1,14 +1,18 @@
 {
   "account": "Global Talent",
   "client": "Booking.com",
-  "asOf": "2026-11-26",
+  "asOf": "2026-11-27",
   "budget": {
-    "used": 31406,
-    "inProgress": 8516,
-    "available": 7398,
-    "remaining": 15914,
+    "used": 32549,
+    "inProgress": 8042,
+    "available": 6729,
+    "remaining": 14771,
     "total": 47321,
-    "currency": "$"
+    "currency": "$",
+    "expires": {
+      "date": "2027-02-28",
+      "amount": 14771
+    }
   },
   "counts": {
     "inProgress": 8,
@@ -27,12 +31,12 @@
       "project": "479875"
     },
     {
-      "label": "Choose the intro style direction for People Behind the People (AI-generated look or a recoloured recreation)",
+      "label": "Approve the project summary for People Behind the People so we can start",
       "due": null,
       "project": "481650"
     },
     {
-      "label": "Confirm the Shanghai filming date once we reply on your request to move it from 1 Dec to 3 Dec",
+      "label": "Approve the V2 interview questions and shoot plan for the Shanghai Grad Scheme",
       "due": null,
       "project": "417129"
     },
@@ -45,6 +49,16 @@
       "label": "Share footage for Data Graduate Campaign",
       "due": "14 Dec",
       "project": "455348"
+    },
+    {
+      "label": "Review the updated Software Engineering Graduate Campaign designs",
+      "due": null,
+      "project": "453571"
+    },
+    {
+      "label": "Let us know if the Premiere project files for the EC podcast episode are available, or only the MP4s",
+      "due": null,
+      "project": "455322"
     }
   ],
   "projectUrlTemplate": "https://app.superside.com/project/{id}/chat",
@@ -58,6 +72,10 @@
       "estimateHigh": 3555.6,
       "logged": 3711.16,
       "pct": 104.4,
+      "hours": {
+        "estimateHigh": 47.08,
+        "logged": 49.3
+      },
       "deadline": "2026-11-20",
       "doing": "Ready to apply any final edits as soon as your feedback arrives",
       "action": "Confirm final feedback on the V2 carousel designs",
@@ -77,6 +95,10 @@
       "estimateHigh": 9026.4,
       "logged": 4831.0,
       "pct": 53.5,
+      "hours": {
+        "estimateHigh": 98.4,
+        "logged": 52.3
+      },
       "deadline": "2026-11-30",
       "doing": "Treasury video updated with the new lower third (option 3 chosen on 24 Nov)",
       "action": "Share stakeholder feedback on the latest Treasury video draft",
@@ -90,31 +112,39 @@
     {
       "id": "417129",
       "title": "Shanghai 2028 Grad Scheme Content and photography",
-      "stage": "revisions",
-      "statusLabel": "Preparing for the Shanghai shoot",
+      "stage": "feedback",
+      "statusLabel": "Interview questions ready for your approval",
       "estimateLow": 12227.6,
       "estimateHigh": 13158.6,
-      "logged": 11565.28,
-      "pct": 87.9,
+      "logged": 12116.18,
+      "pct": 92.1,
+      "hours": {
+        "estimateHigh": 155.09,
+        "logged": 150.25
+      },
       "deadline": "2027-06-30",
-      "doing": "Reviewing your script feedback, finalising shooting schedules and crew details, and replying on the filming date",
-      "action": "Confirm the filming date once we reply on moving it from 1 Dec to 3 Dec",
+      "doing": "Preparing for the Shanghai shoot and looking into your request to move filming to 3 Dec",
+      "action": "Approve the V2 interview questions and shoot plan",
       "next": {
-        "asset": "Updated script and questions, and a reply on the filming date",
+        "asset": "Reply on the filming date and final shoot details",
         "date": null
       },
-      "latest": "Shooting schedules for 1 and 2 Dec sent 20 Nov. Script feedback received 23 Nov",
-      "assets": "Concept V2, photography shot list (approved), script V1 and shooting schedules shared"
+      "latest": "V2 interview questions, run of day and wardrobe guide sent 26 Nov",
+      "assets": "Concept V2, photography shot list (approved), interview questions V2 and shooting schedules shared"
     },
     {
       "id": "420498",
       "title": "Culture Values Brand Refresh",
       "stage": "feedback",
       "statusLabel": "Waiting on your feedback",
-      "estimateLow": 13495.0,
-      "estimateHigh": 14634.5,
-      "logged": 11432.68,
-      "pct": 71.9,
+      "estimateLow": 14721.0,
+      "estimateHigh": 15894.9,
+      "logged": 11485.26,
+      "pct": 72.3,
+      "hours": {
+        "estimateHigh": 189.74,
+        "logged": 133.65
+      },
       "deadline": "2026-12-31",
       "doing": "Refining colours and animations; the brand guide follows once these are approved",
       "action": "Review the updated icons and confirm colours and animations",
@@ -134,6 +164,10 @@
       "estimateHigh": 1267.8,
       "logged": 1250.0,
       "pct": 98.6,
+      "hours": {
+        "estimateHigh": 14.34,
+        "logged": 14.0
+      },
       "deadline": "2026-11-10",
       "doing": "Completing project closure",
       "action": null,
@@ -147,21 +181,25 @@
     {
       "id": "453571",
       "title": "2027 Software Engineering Graduate Hiring Campaign",
-      "stage": "revisions",
-      "statusLabel": "In revisions",
+      "stage": "feedback",
+      "statusLabel": "Waiting on your feedback",
       "estimateLow": 3750.3,
       "estimateHigh": 4022.3,
       "logged": 3268.59,
       "pct": 81.3,
-      "deadline": "2026-11-30",
-      "doing": "Applying your 23 Nov feedback: wording changes, areas of study, testimonial label and new photography",
-      "action": null,
-      "next": {
-        "asset": "Updated campaign designs",
-        "date": "2026-11-26"
+      "hours": {
+        "estimateHigh": 49.94,
+        "logged": 40.05
       },
-      "latest": "Updated design sent 18 Nov. Feedback received 23 Nov",
-      "assets": "Teasers, carousel, IG story, feed post and screen sent. Bootcamp photos received 24 Nov"
+      "deadline": "2026-11-30",
+      "doing": "Ready to make any final changes once your feedback arrives",
+      "action": "Review the updated campaign designs",
+      "next": {
+        "asset": "Final campaign designs after your feedback",
+        "date": null
+      },
+      "latest": "Updated designs with your 23 Nov changes sent 26 Nov",
+      "assets": "Teasers, carousel, IG story, feed post and screen sent. Bootcamp photos used where possible"
     },
     {
       "id": "455322",
@@ -170,16 +208,20 @@
       "statusLabel": "Project started",
       "estimateLow": 9809.8,
       "estimateHigh": 10565.8,
-      "logged": 805.0,
-      "pct": 7.6,
-      "deadline": "2027-01-04",
-      "doing": "Reviewing your stakeholder feedback and preparing the project timings",
-      "action": null,
-      "next": {
-        "asset": "Project timings and our view on which feedback fits the flow",
-        "date": null
+      "logged": 875.0,
+      "pct": 8.3,
+      "hours": {
+        "estimateHigh": 117.94,
+        "logged": 12.5
       },
-      "latest": "Project plan approved 24 Nov. Stakeholder feedback received 25 Nov",
+      "deadline": "2027-01-04",
+      "doing": "Starting the edit and trimming where possible to reflect your stakeholder feedback",
+      "action": "Let us know if the Premiere project files are available, or only the MP4s",
+      "next": {
+        "asset": "Key Visual V2",
+        "date": "2026-12-15"
+      },
+      "latest": "Reply on your stakeholder feedback sent 26 Nov",
       "assets": "EC and ML recordings and 2 scripts supplied. Nothing sent yet"
     },
     {
@@ -191,12 +233,16 @@
       "estimateHigh": 13746.4,
       "logged": 595.0,
       "pct": 4.3,
+      "hours": {
+        "estimateHigh": 148.12,
+        "logged": 8.5
+      },
       "deadline": "2027-02-01",
       "doing": "On hold until your footage arrives",
       "action": "Share your footage with us",
       "next": {
-        "asset": "Your footage to us",
-        "date": "2026-12-14"
+        "asset": "Your footage to us (expected 14 Dec)",
+        "date": null
       },
       "latest": "Plan approved 6 Nov. Nothing sent yet",
       "assets": "0 of 1 sent. Your footage is due 14 Dec"
@@ -210,6 +256,10 @@
       "estimateHigh": 3852.0,
       "logged": 119.0,
       "pct": 3.1,
+      "hours": {
+        "estimateHigh": 41.97,
+        "logged": 1.7
+      },
       "deadline": "2026-12-15",
       "doing": "Preparing the project plan and brief, and booking the video team",
       "action": "Share the remaining footage and the music direction link",
@@ -227,8 +277,12 @@
       "statusLabel": "Design in progress",
       "estimateLow": 2812.6,
       "estimateHigh": 3025.6,
-      "logged": 735.0,
-      "pct": 24.3,
+      "logged": 1485.0,
+      "pct": 49.1,
+      "hours": {
+        "estimateHigh": 33.19,
+        "logged": 15.75
+      },
       "deadline": "2026-12-09",
       "doing": "Designing the festive deck and a simple opening animation",
       "action": "Share the 12 monthly wins and highlights, plus any supporting visuals",
@@ -243,19 +297,23 @@
       "id": "481650",
       "title": "People Behind the People",
       "stage": "prep",
-      "statusLabel": "In preparation",
-      "estimateLow": 0,
-      "estimateHigh": 0,
-      "logged": 175.0,
-      "pct": null,
+      "statusLabel": "Waiting on your approval",
+      "estimateLow": 11139.7,
+      "estimateHigh": 12006.3,
+      "logged": 245.0,
+      "pct": 2.0,
+      "hours": {
+        "estimateHigh": 130.69,
+        "logged": 3.5
+      },
       "deadline": "2026-12-14",
-      "doing": "Preparing the project summary and exploring options for the opening animation",
-      "action": "Tell us which intro style direction you prefer",
+      "doing": "Ready to start once you approve the project summary",
+      "action": "Approve the project summary so we can start",
       "next": {
-        "asset": "Project summary for your approval",
+        "asset": "Project start after your approval",
         "date": null
       },
-      "latest": "Nothing sent yet. Videos received 24 Nov",
+      "latest": "Project summary sent 26 Nov. Videos received 24 Nov",
       "assets": "Videos for all featured colleagues and host photos supplied"
     },
     {
@@ -267,6 +325,10 @@
       "estimateHigh": 0,
       "logged": 157.5,
       "pct": null,
+      "hours": {
+        "estimateHigh": 0,
+        "logged": 2.25
+      },
       "deadline": "2027-01-11",
       "doing": "Reviewing the brief and preparing the project plan",
       "action": "Confirm whether we should write the copy for these assets",

@@ -1,17 +1,17 @@
 {
   "account": "Regional Events",
   "client": "Booking.com",
-  "asOf": "2026-11-26",
+  "asOf": "2026-11-27",
   "budget": {
-    "used": 11499,
-    "inProgress": 1988,
-    "available": -2198,
-    "remaining": -211,
+    "used": 11712,
+    "inProgress": 2198,
+    "available": -2621,
+    "remaining": -423,
     "total": 11289,
     "currency": "$"
   },
   "counts": {
-    "inProgress": 3,
+    "inProgress": 4,
     "waitingApproval": 0,
     "drafts": 0
   },
@@ -33,6 +33,10 @@
       "next": {
         "asset": "Your feedback on the glossary and set-up guidance",
         "date": null
+      },
+      "hours": {
+        "estimateHigh": 77.43,
+        "logged": 64.5
       }
     },
     {
@@ -52,6 +56,10 @@
       "next": {
         "asset": "Next market deck",
         "date": null
+      },
+      "hours": {
+        "estimateHigh": 181.6,
+        "logged": 146.85
       }
     },
     {
@@ -70,26 +78,34 @@
       "assets": "Leadership deck in progress",
       "next": {
         "asset": "Leadership deck",
-        "date": "2026-11-27"
+        "date": null
+      },
+      "hours": {
+        "estimateHigh": 48.45,
+        "logged": 34.75
       }
     },
     {
       "id": "492136",
       "title": "Self Service",
-      "stage": "prep",
-      "statusLabel": "In preparation",
-      "estimateLow": 0,
-      "estimateHigh": 0,
-      "logged": 0,
-      "pct": null,
-      "latest": "Nothing sent yet. Project set up 25 Nov",
+      "stage": "revisions",
+      "statusLabel": "In progress",
+      "estimateLow": 1180.7,
+      "estimateHigh": 1396.7,
+      "logged": 212.5,
+      "pct": 15.2,
+      "latest": "Project plan shared and work started 26 Nov",
       "deadline": "2026-12-18",
-      "doing": "Preparing the project plan and estimate",
+      "doing": "Resizing assets ahead of final delivery on 18 Dec",
       "action": null,
-      "assets": "Nothing sent yet",
+      "assets": "Nothing shared yet",
       "next": {
-        "asset": "Project plan and estimate",
+        "asset": "Resized assets",
         "date": null
+      },
+      "hours": {
+        "estimateHigh": 17.9,
+        "logged": 2.7
       }
     }
   ],

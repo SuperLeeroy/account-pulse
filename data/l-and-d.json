@@ -1,14 +1,18 @@
 {
   "account": "L&D",
   "client": "Booking.com",
-  "asOf": "2026-11-26",
+  "asOf": "2026-11-27",
   "budget": {
     "used": 2865,
     "inProgress": 117,
     "available": 10814,
     "remaining": 10931,
     "total": 13796,
-    "currency": "$"
+    "currency": "$",
+    "expires": {
+      "date": "2027-01-31",
+      "amount": 5181
+    }
   },
   "counts": {
     "inProgress": 2,

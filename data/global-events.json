@@ -1,14 +1,18 @@
 {
   "account": "Global Events",
   "client": "Booking.com",
-  "asOf": "2026-11-26",
+  "asOf": "2026-11-27",
   "budget": {
     "used": 12067,
     "inProgress": 3973,
     "available": -259,
     "remaining": 3713,
     "total": 15780,
-    "currency": "$"
+    "currency": "$",
+    "expires": {
+      "date": "2027-02-28",
+      "amount": 3713
+    }
   },
   "counts": {
     "inProgress": 4,
@@ -38,6 +42,10 @@
       "estimateHigh": 698.4,
       "logged": 210.0,
       "pct": 30.1,
+      "hours": {
+        "estimateHigh": 10.92,
+        "logged": 3.0
+      },
       "deadline": "2026-12-04",
       "doing": "Wrapping up and closing the project",
       "action": null,
@@ -57,6 +65,10 @@
       "estimateHigh": 4628.9,
       "logged": 2220.0,
       "pct": 48.0,
+      "hours": {
+        "estimateHigh": 50.45,
+        "logged": 24.0
+      },
       "deadline": "2026-11-26",
       "doing": "Ready-for-print files sent, awaiting your confirmation of print requirements",
       "action": "Confirm the files work for your printers, or tell us if a different output is needed",
@@ -76,6 +88,10 @@
       "estimateHigh": 19375.0,
       "logged": 25690.73,
       "pct": 132.6,
+      "hours": {
+        "estimateHigh": 215.9,
+        "logged": 282.6
+      },
       "deadline": "2026-11-02",
       "doing": "Adding the Payments in Brazil highlight and switching the closing logo to the standard Booking.com logo",
       "action": null,
@@ -95,6 +111,10 @@
       "estimateHigh": 4900.8,
       "logged": 4305.0,
       "pct": 87.8,
+      "hours": {
+        "estimateHigh": 53.04,
+        "logged": 49.5
+      },
       "deadline": "2026-11-30",
       "doing": "Paused until we receive your brief for the next stage",
       "action": "Share your brief so we can resume",

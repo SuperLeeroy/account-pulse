@@ -1,14 +1,18 @@
 {
   "account": "Connectivity",
   "client": "Booking.com",
-  "asOf": "2026-11-26",
+  "asOf": "2026-11-27",
   "budget": {
-    "used": 4791,
-    "inProgress": 3984,
+    "used": 4816,
+    "inProgress": 3960,
     "available": -165,
-    "remaining": 3819,
+    "remaining": 3795,
     "total": 8485,
-    "currency": "$"
+    "currency": "$",
+    "expires": {
+      "date": "2026-12-31",
+      "amount": 3670
+    }
   },
   "counts": {
     "inProgress": 2,
@@ -33,14 +37,18 @@
       "estimateHigh": 5249.8,
       "logged": 2712.0,
       "pct": 51.7,
+      "hours": {
+        "estimateHigh": 83.83,
+        "logged": 41.7
+      },
       "deadline": "2026-12-22",
       "doing": "Preparing the approved template to receive the final English copy",
       "action": "Share the final English copy (expected around 18 Jan)",
       "next": {
         "asset": "English CPP Guide loaded into the design, saved as PDF",
-        "date": "2027-01-25"
+        "date": null
       },
-      "latest": "Badge exports (.svg and .png) sent 23 Nov",
+      "latest": "Timings confirmed 26 Nov. Badge exports (.svg and .png) sent 23 Nov",
       "assets": "Tier, combination and Seamless Experience badges approved 20 Nov. Exports sent 23 Nov. English guide V1 shared 6 Nov"
     },
     {
@@ -50,8 +58,12 @@
       "statusLabel": "In revisions",
       "estimateLow": 11938.5,
       "estimateHigh": 12862.5,
-      "logged": 9403.38,
-      "pct": 73.1,
+      "logged": 9427.64,
+      "pct": 73.3,
+      "hours": {
+        "estimateHigh": 143.3,
+        "logged": 105.15
+      },
       "deadline": "2026-11-30",
       "doing": "Updating the prompt document and onboarding guidance following your 24 Nov feedback",
       "action": null,
